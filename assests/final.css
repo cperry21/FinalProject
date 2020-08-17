@@ -9,6 +9,8 @@ p {
 	font-family: 'arial';
 	color: white;
 	line-height: 20px;
+	background-color: blue;
+	background-clip: padding-box;
  }
 
  header{
@@ -114,3 +116,27 @@ height: 35px;
 text-align: center;
 }
 
+/* Media */
+
+@media screen and 
+(max-width: 1000px){
+	nav ul, nav ul li, nav ul li {
+	width: 100%;
+    text-align: left;
+  }
+	
+nav ul li a{
+    width: 100%;
+    text-align: center;
+	}
+	
+.body, .nav, .main {
+		width: 100%;
+	}
+	
+	
+.footer {
+    width: 100%;
+    margin-top: 88px;
+	}
+}
